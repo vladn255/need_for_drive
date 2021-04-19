@@ -1,0 +1,54 @@
+{
+  "name": "need_for_drive",
+  "version": "1.0.0",
+  "description": "Trainee frontend-project",
+  "main": "index.js",
+  "dependencies": {
+    "prop-types": "15.7.2",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-redux": "7.2.3",
+    "react-router-dom": "5.2.0",
+    "redux": "4.0.5",
+    "redux-devtools-extension": "2.13.9",
+    "redux-thunk": "2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.17",
+    "@babel/preset-env": "7.12.17",
+    "@babel/preset-react": "7.12.13",
+    "autoprefixer": "^10.2.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "5.0.2",
+    "eslint": "7.18.0",
+    "eslint-plugin-react": "7.22.0",
+    "file-loader": "6.2.0",
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss": "^8.2.10",
+    "style-loader": "2.0.0",
+    "webpack": "4.46.0",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.2"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server",
+    "eslint": "eslint --ext .jsx --ext .js src/",
+    "test": "npm run editorconfig && npm run eslint",
+    "gulp": "gulp styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladn255/need_for_drive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladn255/need_for_drive/issues"
+  },
+  "homepage": "https://github.com/vladn255/need_for_drive#readme"
+}
