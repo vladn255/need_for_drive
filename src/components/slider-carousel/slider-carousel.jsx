@@ -52,7 +52,6 @@ const SliderCarousel = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    adaptiveHeight: true,
     nextArrow: <ArrowRight />,
     prevArrow: <ArrowLeft />,
     dotsClass: "slider__nav",

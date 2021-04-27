@@ -1,11 +1,19 @@
 .menu-opened {
   position: absolute;
-  z-index: 10;
+  z-index: 15;
+  top: 0;
   height: 100%;
   width: 100%;
   display: flex;
   align-items: flex-start;
   background: rgba(21, 27, 31, 0.81);
+
+  @media (max-width: calc(@tablet-width - 1px)) {
+    position: relative;
+    left: 0;
+    width: 100%;
+    order: 0;
+  }
 }
 
 .menu-opened__wrapper {

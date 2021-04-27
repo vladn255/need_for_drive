@@ -30,7 +30,13 @@ const SLIDES = [
   },
 ];
 
+const Languages = {
+  RUS: "Рус",
+  ENG: "Eng"
+}
+
 export {
   RoutePath,
-  SLIDES
+  SLIDES,
+  Languages
 };

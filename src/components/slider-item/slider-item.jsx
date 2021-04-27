@@ -9,7 +9,7 @@ const SliderItem = ({ index, slide }) => {
 
   return (
     <article className="slider-item" key={index} style={styles}>
-      <div className="slider-item__wrapper container">
+      <div className="slider-item__wrapper">
         <h2 className="slider-item__title">{title}</h2>
         <p className="slider-item__text">{text}</p>
         <button className={`button button--slider-item button--${buttonColor}`}>
