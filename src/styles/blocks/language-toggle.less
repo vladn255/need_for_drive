@@ -1,0 +1,20 @@
+.language-toggle {
+  font-size: 13px;
+  color: @f-green;
+  font-weight: bold;
+  background-color: inherit;
+  position: relative;
+
+  border: none;
+  outline: none;
+
+  &:hover {
+    color: @f-grey;
+  }
+
+  @media (max-width: calc(@tablet-width - 1px)) {
+    display: none;
+    z-index: 15;
+    padding-bottom: 28px;
+  }
+}
