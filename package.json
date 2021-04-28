@@ -46,7 +46,7 @@
     "eslint": "eslint --ext .jsx --ext .js src/",
     "test": "npm run eslint",
     "gulp": "gulp styles",
-    "deploy": "gh-pages -d public"
+    "deploy": "npm run build && gh-pages -d public"
   },
   "repository": {
     "type": "git",
