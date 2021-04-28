@@ -11,4 +11,10 @@
   &:hover {
     color: @f-grey;
   }
+
+  @media (max-width: calc(@tablet-width - 1px)) {
+    display: none;
+    z-index: 15;
+    padding-bottom: 28px;
+  }
 }

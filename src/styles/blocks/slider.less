@@ -1,5 +1,9 @@
 .slider {
   width: calc(50%);
+
+  @media (max-width: calc(@desktop-min-width - 1px)) {
+    display: none;
+  }
 }
 
 .slider__nav {

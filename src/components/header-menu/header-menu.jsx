@@ -149,7 +149,11 @@ const HeaderMenu = () => {
             </svg>
           </button>
         </div>
-        <button className="language-toggle" onClick={handleClickLangToggle}>
+        <button
+          className="language-toggle"
+          onClick={handleClickLangToggle}
+          style={menuOpened ? {display: "block"} : {}}
+        >
           {langEng ? Languages.ENG : Languages.RUS}
         </button>
       </nav>

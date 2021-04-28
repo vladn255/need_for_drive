@@ -1,15 +1,29 @@
 .banner-header {
-  height: 80px;
+  min-height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 166px;
+
+  @media (max-width: calc(@tablet-width - 1px)) {
+    min-height: 0;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 36px;
+  }
 }
 
 .banner-header__text {
   color: @f-green;
   font-weight: bold;
   font-size: 30px;
+
+  @media (max-width: calc(@tablet-width - 1px)) {
+    padding-bottom: 8px;
+  }
 }
 
 .banner-header__city {

@@ -4,12 +4,31 @@
   justify-content: space-between;
   align-items: center;
   margin-top: auto;
+
+  @media (max-width: calc(@tablet-width - 1px)) {
+    min-height: 72px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    background-color: @bg-black;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
 }
 
 .banner-footer__copyright {
+  font-size: 13px;
   color: @f-grey;
+
+  @media (max-width: calc(@tablet-width - 1px)) {
+    color: @f-white;
+  }
 }
 
 .banner-footer__contacts {
   font-size: 13px;
+
+  @media (max-width: calc(@tablet-width - 1px)) {
+    color: @f-green;
+  }
 }

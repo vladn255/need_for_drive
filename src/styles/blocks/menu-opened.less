@@ -9,10 +9,7 @@
   background: rgba(21, 27, 31, 0.81);
 
   @media (max-width: calc(@tablet-width - 1px)) {
-    position: relative;
-    left: 0;
     width: 100%;
-    order: 0;
   }
 }
 
@@ -24,6 +21,18 @@
   padding-left: 128px;
   height: 100%;
   background-color: @bg-black;
+
+  @media (max-width: calc(@tablet-width - 1px)) {
+    width: 100%;
+    padding-left: 28px;
+    padding-top: 80px;
+    justify-content: start;
+  }
+
+  @media (max-width: calc(@desktop-min-width - 1px)) {
+    width: 100%;
+  }
+
 }
 
 .menu-opened__page-list {
